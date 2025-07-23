@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.pnpm/
+
+# Logs
+logs/
+*.log
+
+# Build
+dist/
+build/
+
+# Environment files
+.env*
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+lcov-report/
+
+# MongoDB Memory Server cache
+**/mongodb-memory-server-*/tmp/
+
+# Optional archives
+*.tgz
+*.zip
+
+# Lock file (keep it if you want reproducible installs)
+# pnpm-lock.yaml

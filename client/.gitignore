@@ -1,0 +1,14 @@
+# React build output
+build/
+
+# Testing
+coverage/
+jest-test-results.json
+
+# Cypress output
+cypress/screenshots/
+cypress/videos/
+
+# Environment
+.env*
+.env.local

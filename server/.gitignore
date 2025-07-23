@@ -1,0 +1,13 @@
+# Build output (if using TypeScript or Babel)
+dist/
+
+# Testing
+coverage/
+jest-test-results.json
+
+# MongoDB in-memory cache
+**/mongodb-memory-server-*/tmp/
+
+# Environment
+.env*
+.env.local

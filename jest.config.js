@@ -29,6 +29,7 @@ module.exports = {
         '\\.(jpg|jpeg|png|gif|webp|svg)$': '<rootDir>/client/src/tests/__mocks__/fileMock.js',
       },
       setupFilesAfterEnv: ['<rootDir>/client/src/tests/setup.js'],
+      setupFilesAfterEnv: ['<rootDir>/tests/setup.js'],
       transform: {
         '^.+\\.(js|jsx)$': 'babel-jest',
       },
